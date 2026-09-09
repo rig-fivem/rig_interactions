@@ -28,10 +28,6 @@ local function update_text_ui_quantity(amount)
     })
 end
 
-local function update_text_ui_status(text)
-    SendNUIMessage({ func = "update_text_ui_status", payload = { text = text } })
-end
-
 local function clear_text_ui()
     SendNUIMessage({ func = "clear_text_ui" })
 end
@@ -61,7 +57,6 @@ RegisterNetEvent("rig_interactions:client:destroy_text_ui", function()
 end)
 
 --- @section Exports
-
 
 exports("update_text_ui", update_text_ui)
 exports("update_text_ui_quantity", update_text_ui_quantity)

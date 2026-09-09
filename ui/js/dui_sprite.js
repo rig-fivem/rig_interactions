@@ -86,7 +86,7 @@ export class DUISprite {
     }
 }
 
-
+/*
 const test_dui = new DUISprite({
     header: "Some Test Dui",
     image: "/ui/assets/images/RIG256.png",
@@ -105,3 +105,4 @@ const test_dui = new DUISprite({
         }
     }
 });
+*/

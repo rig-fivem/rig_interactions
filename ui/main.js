@@ -31,12 +31,6 @@ HANDLERS.update_hint_quantity = (data) => {
     }
 }
 
-HANDLERS.update_hint_status = (data) => {
-    if (text_ui) {
-        text_ui.update_status_text(data.payload.text);
-    }
-}
-
 HANDLERS.clear_text_ui = () => {
     if (text_ui) {
         text_ui.clear();
